@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     tools {
-        jdk 'JDK 11'  // Assurez-vous d'avoir configuré un JDK dans Jenkins
+        jdk 'JDK 21'  // Assurez-vous d'avoir configuré un JDK dans Jenkins
         git 'Default'  // Assurez-vous d'avoir configuré git dans Jenkins
     }
 
